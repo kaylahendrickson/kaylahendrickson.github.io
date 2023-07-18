@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="53" height="52" viewBox="-10 -10 53 52">
-  <g fill="#05BF85" fill-rule="evenodd">
-    <path d="M20.14 2.13L33 10l-1 2-6.65-3.08a12.99 12.99 0 0 1-3 13.1l1.65 9.3c.07.38-.2.68-.57.68h-.74a.86.86 0 0 1-.81-.68l-1.36-7.71A12.93 12.93 0 0 1 14 25.96v5.34a.7.7 0 0 1-.7.7h-.6a.7.7 0 0 1-.7-.7v-5.34a12.93 12.93 0 0 1-6.5-2.35l-1.37 7.71a.86.86 0 0 1-.81.68h-.73a.56.56 0 0 1-.58-.68l1.64-9.29a13 13 0 0 1 16.49-19.9zM13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22z"/>
-    <path fill-opacity=".44" d="M13 24a11 11 0 0 0 11-11s-22-.1-22 0a11 11 0 0 0 11 11z"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <clipPath id="clip-logo_180">
+      <rect width="180" height="180"/>
+    </clipPath>
+  </defs>
+  <g id="logo_180" data-name="logo@180" clip-path="url(#clip-logo_180)">
+    <rect width="180" height="180" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-224.166 -247.877)">
+      <path id="Subtraction_2" data-name="Subtraction 2" d="M85.079,170.159h0L47.938,133.017l47.093,27.189-9.952,9.952Zm14.576-14.576h0L30.681,115.76,13.938,99.017,52.017,33.062l19.3-19.3,65.145,37.611,19.3,19.3L116.4,138.839,99.655,155.583Zm34-34h0L160.378,75.3l9.781,9.781ZM9.314,94.393h0L0,85.079,34.759,50.32ZM119.2,34.119,75.937,9.143,85.079,0,119.2,34.119Z" transform="translate(228.421 251.421)" fill="#a03157"/>
+      <text id="K" transform="translate(291.166 355.877)" fill="#f4f4f4" font-size="60" font-family="Georgia"><tspan x="0" y="0">K</tspan></text>
+    </g>
   </g>
 </svg>

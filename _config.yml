@@ -33,6 +33,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
+- jekyll-remote-theme
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -56,12 +57,18 @@ timezone: Europe/London # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
+  now: 
+    title: now
+    output: true
+    descritpion: "What I am up to currently, if you use a sufficiently loose definition of ‘currently’."
+    feature_text: |
+      What I am up to currently, if you use a sufficiently loose definition of ‘currently’.
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My Wiki" # The post list page content
+    description: "" # The post list page content
     feature_text: |
-      This is my wiki - notes and essays about the things about which I know a little or a lot or nothing.
+      What I am up to currently, if you use a sufficiently loose definition of ‘currently’.
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
@@ -86,10 +93,10 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
+lang: en-US # Set the site language
 title: "KAYLA HENDRICKSON" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Where I keep the goods." # Site description and default description, also used in jekyll-seo-tag
+description: "Storing goods." # Site description and default description, also used in jekyll-seo-tag
 url: "https://kaylahendrickson.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/kaylahendrickson/kaylahendrickson.github.io"
@@ -117,14 +124,19 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: HOME
   url: /
-- title: LIBRARY
-  url: /elements/
-- title: NOW
-  url: /blog/
 - title: WIKI
-  url: /categories/
+  url: /wiki/
+- title: LIBRARY
+  url: /library/
+- title: NOW
+  url: /now/
 - title: SEARCH
   url: /search/
+
+navigation_footer:
+- title: SEARCH
+  url: /search/
+
 
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
@@ -143,4 +155,4 @@ fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
-    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+    - https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap

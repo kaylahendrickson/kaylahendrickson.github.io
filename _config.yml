@@ -63,13 +63,12 @@ collections:
     descritpion: "What I am up to currently, if you use a sufficiently loose definition of ‘currently’."
     feature_text: |
       What I am up to currently, if you use a sufficiently loose definition of ‘currently’.
+   
   posts:
     title: Posts # Needed for Siteleaf
     output: true
     description: "" # The post list page content
-    feature_text: |
-      What I am up to currently, if you use a sufficiently loose definition of ‘currently’.
-    feature_image: "https://picsum.photos/2560/600?image=866"
+   
 
 # 6. Jekyll collections settings
 defaults:
@@ -125,13 +124,14 @@ navigation_header:
 - title: HOME
   url: /
 - title: WIKI
-  url: /wiki/
+  url: /wiki
 - title: LIBRARY
-  url: /library/
+  url: /library
 - title: NOW
   url: /now/
-- title: SEARCH
-  url: /search/
+- title: ABOUT
+  url: /about/
+
 
 navigation_footer:
 - title: SEARCH
